@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-rawsaver"
+description = "Nodes:SaveTifImage. ComfyUI custom node for purpose of saving image as uint16 tif file."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["imageio"]
+
+[project.urls]
+Repository = "https://github.com/LonicaMewinsky/ComfyUI-RawSaver"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-RawSaver"
+Icon = ""
